@@ -102,6 +102,7 @@
 
 (defgroup osd nil
   "X on-screen display front-end."
+  :group 'environment
   :prefix "osd-")
 
 (defcustom osd-default-display nil
